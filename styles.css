@@ -44,8 +44,9 @@
             margin: 60px 84px;
         }
 
-        .left {
-            font-size: 1.5rem;
+        .left img{
+            width: 175px;
+            margin-top: 10px;
         }
 
         .firstSection {
@@ -350,6 +351,10 @@ DEMO
 
         footer {
             background-color: #0e0e1a;
+        }
+        
+        .footer .footer-first img{
+            width: 175px;
         }
 
         .footer {
