@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
 </head>
 
 <body>
@@ -28,7 +30,7 @@
     </header>
     <main>
         <section class="firstSection">
-            <div class="leftSection">Hi, My name is <span class="purple">Aditya</span>
+            <div class="leftSection">Hi, I'm <span class="purple">Aditya Shukla</span>
                 <div>and I am a</div>
                 <span id="element"></span>
             </div>
@@ -176,17 +178,29 @@
                 <img src="logo.png">
             </div>
             <div class="footer-second">
+                <b style="color:#a064d8;">MENU</b>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
             </div>
             <div class="footer-third">
             </div>
-            <div class="footer-fourth"></div>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/">About</a></li>
-                <li><a href="/">Education</a></li>
-                <li><a href="/">Skills</a></li>
-                <li><a href="/">Contact Me</a></li>
-            </ul>
+            <div class="footer-fourth">
+                <b style="color: #a064d8;">GET IN TOUCH</b>
+            <br>
+            <p class="mail" style="margin-top: 10px;"><a href="mailto:adxtyashukla@gmail.com">Email: adxtyashukla@gmail.com</a></p>
+            <b style="color: #a064d8;">CONNECT</b>
+            <div class="social-icons">
+                <a href="https://www.github.com/adityashukla-7" class="fab fa-github social-icon" target="_blank"></a>
+                <a href="https://twitter.com/" class="fab fa-twitter social-icon" target="_blank"></a>
+                <a href="https://www.youtube.com/adityashuklaofficial" class="fab fa-youtube social-icon" target="_blank"></a>
+                <a href="www.linkedin.com/in/aditya-shukla7" class="fab fa-linkedin social-icon" target="_blank"></a>
+            </div>
+        </div>
         </div>
         <div class="footer-rights">
             Copyright &#169; www.adityashukla.tech | All rights reserved
@@ -197,6 +211,7 @@
         var typed = new Typed('#element', {
             strings: ['CS Student.', 'Web Developer!'],
             typeSpeed: 50,
+            loop:true,
         });
     </script>
 </body>
