@@ -640,7 +640,7 @@ DEMO
 
         .contact .container .row {
             display: flex;
-            padding: 85px;
+            padding: 150px;
         }
 
         .contact-left {
@@ -704,6 +704,7 @@ DEMO
 
         .contact-right form {
             width: 100;
+            margin-top: 10px;
         }
 
         form input,
